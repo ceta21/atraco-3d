@@ -5,7 +5,7 @@ export const CFG = {
   N: 5,
   BLOCK: 44, // lado de cada manzana
   PITCH: 58, // distancia entre centros de manzana (manzana + calle de 14)
-  HALF: 146, // mitad del mapa (límite con muro)
+  HALF: 152, // mitad del mapa (límite con muro)
   CELL: 2, // tamaño de celda de la rejilla de navegación
 
   // Jugador
@@ -38,9 +38,9 @@ export const CFG = {
 };
 
 export const LOOT_TYPES = {
-  atm: { name: 'Cajero automático', min: 250, max: 450, weight: 1, time: 2.0, color: 0x33ffaa },
-  joyeria: { name: 'Joyería', min: 900, max: 1500, weight: 3, time: 3.5, color: 0xffd24a },
-  caja: { name: 'Caja fuerte', min: 2000, max: 3200, weight: 5, time: 6.0, color: 0xff4466 },
+  atm: { name: 'Cajero automático', min: 250, max: 450, weight: 1, time: 2.0, heat: 22, color: 0x33ffaa },
+  joyeria: { name: 'Joyería', min: 900, max: 1500, weight: 3, time: 3.5, heat: 40, color: 0xffd24a },
+  caja: { name: 'Caja fuerte', min: 2000, max: 3200, weight: 5, time: 6.0, heat: 60, color: 0xff4466 },
 };
 
 export const UPGRADES = [

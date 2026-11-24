@@ -55,7 +55,11 @@ tools/smoke.mjs       prueba de humo
 
 ## Estado y siguientes pasos
 
-Primer prototipo en construcción. Ideas ya pensadas, por orden:
+Prototipo 0.1 jugable: ciudad 5x5 manzanas, robo de 25 objetivos (cajeros, joyerías, cajas fuertes), policía con IA en 4 estados, extracción, tienda con 4 mejoras y munición, minimapa y guardado. `npm run smoke` pasa sin errores (en headless hay ~5 fps por swiftshader; las pruebas de lógica llaman a `update()` a mano).
+
+Pendiente de pulir: equilibrio de dificultad tras probar en un PC real, y la cámara cuando el jugador roba pegado a una pared.
+
+Ideas ya pensadas, por orden:
 1. Coches de policía y helicóptero en 4 estrellas.
 2. Más tipos de botín y un banco con cámara acorazada.
 3. Bandas rivales controladas por IA y territorios.
